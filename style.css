@@ -130,6 +130,23 @@ h1 span {
     padding-bottom: 80px;
 }
 
+.document-panel {
+    background: linear-gradient(135deg, rgba(48, 18, 80, 0.65), var(--surface));
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    margin: 0 32px;
+    max-width: 760px;
+}
+
+.document-icon {
+    color: var(--violet-light);
+    font-family: "Courier New", monospace;
+    font-size: 1.4rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    margin-bottom: 24px;
+}
+
 .hero {
     align-items: center;
     display: flex;
