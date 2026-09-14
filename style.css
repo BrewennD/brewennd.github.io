@@ -28,6 +28,16 @@ body {
     line-height: 1.6;
 }
 
+h1,
+h2,
+h3 {
+    color: var(--text);
+}
+
+p {
+    color: #d4c9df;
+}
+
 a {
     color: inherit;
     text-decoration: none;
@@ -110,9 +120,9 @@ h1 span {
     margin-top: 16px;
 }
 
-.placeholder {
+.content-placeholder {
     border-left: 2px solid var(--violet-light);
-    color: var(--muted);
+    color: #d4c9df;
     padding-left: 14px;
 }
 
@@ -159,7 +169,7 @@ h1 {
 
 .hero-text,
 .section-intro {
-    color: var(--muted);
+    color: #d4c9df;
     font-size: 1.1rem;
     max-width: 580px;
 }
@@ -249,7 +259,7 @@ h3 {
 
 .card p,
 .contact p {
-    color: var(--muted);
+    color: #d4c9df;
 }
 
 .contact {
