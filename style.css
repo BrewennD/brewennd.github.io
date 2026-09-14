@@ -147,6 +147,74 @@ h1 span {
     margin-bottom: 24px;
 }
 
+.skills-table-wrapper {
+    margin: 0 32px;
+    overflow-x: auto;
+}
+
+.skills-table {
+    border-collapse: collapse;
+    min-width: 960px;
+    width: 100%;
+}
+
+.skills-table th,
+.skills-table td {
+    border-bottom: 1px solid var(--border);
+    padding: 18px 16px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.skills-table thead th {
+    background: var(--violet);
+    color: var(--text);
+    font-size: 0.85rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.skills-table tbody tr {
+    background: rgba(21, 16, 28, 0.85);
+}
+
+.skills-table tbody tr:nth-child(even) {
+    background: rgba(33, 23, 44, 0.72);
+}
+
+.skills-table tbody tr:hover {
+    background: rgba(48, 18, 80, 0.72);
+}
+
+.skills-table td {
+    color: #d4c9df;
+}
+
+.skills-table td:nth-child(2) {
+    color: var(--text);
+    font-weight: 700;
+}
+
+.block-separator th,
+.block-separator td {
+    border-top: 2px solid var(--violet-light);
+}
+
+.block-badge {
+    background: var(--violet);
+    border: 1px solid var(--violet-light);
+    border-radius: 5px;
+    color: var(--text);
+    display: inline-block;
+    font-size: 0.85rem;
+    padding: 4px 8px;
+}
+
+.to-complete {
+    color: var(--violet-light) !important;
+    font-style: italic;
+}
+
 .hero {
     align-items: center;
     display: flex;
@@ -328,6 +396,10 @@ h3 {
     .content-grid {
         grid-template-columns: 1fr;
         padding: 0 20px;
+    }
+
+    .skills-table-wrapper {
+        margin: 0 20px;
     }
 
     .hero {
