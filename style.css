@@ -69,6 +69,52 @@ nav a:focus {
     color: var(--text);
 }
 
+.nav-cv {
+    border: 1px solid var(--violet-light);
+    border-radius: 5px;
+    color: var(--text);
+    padding: 5px 10px;
+}
+
+.page-main {
+    margin: 0 auto;
+    max-width: 1180px;
+}
+
+.page-heading {
+    padding: 90px 32px 48px;
+}
+
+.page-heading h1 {
+    font-size: clamp(2.8rem, 7vw, 5rem);
+    margin-bottom: 24px;
+}
+
+.content-grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 32px;
+}
+
+.content-grid .card h2 {
+    font-size: 1.35rem;
+}
+
+.content-grid .card p + p {
+    margin-top: 16px;
+}
+
+.placeholder {
+    border-left: 2px solid var(--violet-light);
+    color: var(--muted);
+    padding-left: 14px;
+}
+
+.section-small {
+    padding-bottom: 80px;
+}
+
 .hero {
     align-items: center;
     display: flex;
@@ -224,6 +270,15 @@ h3 {
     nav {
         flex-wrap: wrap;
         gap: 12px 20px;
+    }
+
+    .page-heading {
+        padding: 64px 20px 36px;
+    }
+
+    .content-grid {
+        grid-template-columns: 1fr;
+        padding: 0 20px;
     }
 
     .hero {
