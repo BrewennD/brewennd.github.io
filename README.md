@@ -62,25 +62,6 @@ Les pages de stage et les tableaux comportent des emplacements à compléter ave
     └── E5_SLAM_V1-TableauSynthese_BrewennD.xlsx
 ```
 
-## Mise à jour du site
-
-Le site est publié depuis la branche `main`. Pour travailler sur le projet en local :
-
-```bash
-git clone https://github.com/BrewennD/brewennd.github.io.git
-cd brewennd.github.io
-```
-
-Après une modification, il suffit de la commit puis de la pousser sur `main` :
-
-```bash
-git add .
-git commit -m "Décrire la modification"
-git push origin main
-```
-
-GitHub Pages met ensuite le site à jour automatiquement.
-
 ## Contact
 
 Pour me contacter :
