@@ -61,13 +61,3 @@ Les pages de stage et les tableaux comportent des emplacements à compléter ave
     ├── CV_BrewennDasse.pdf
     └── E5_SLAM_V1-TableauSynthese_BrewennD.xlsx
 ```
-
-## Contact
-
-Pour me contacter :
-
-**[brewenndasse2@gmail.com](mailto:brewenndasse2@gmail.com)**
-
----
-
-*Portfolio réalisé par Bréwenn Dassé dans le cadre de son BTS SIO SLAM.*
